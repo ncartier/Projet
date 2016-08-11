@@ -1,0 +1,13 @@
+Je vais te demander de faire un serveur web qui sert juste une page web d'authentification, et une page sécurisé.
+L'idéal, serait que tu utilise go pour le serveur, et React.js pour le front, évidement.
+Et pour l'authentification, tu peux utiliser un JWT
+https://jwt.io/
+Json web token.
+Le résultat final doit me permettre de m'authentifier avec un couple login / mot de passe, et d'accèder à une page sécurisé.
+Donc si ton serveur tourne en local, par exemple sur le port 8080, tu dois afficher à la racine, la page d'authentification.
+Et sur le chemin /secure (par exemple) la page sécurisée.
+Donc tu devrais avoir deux routes :
+localhost:8080/
+localhost:8080/secure
+C'est un gros boulot pour quelqu'un qui n'a jamais fait de web.
+Mais le but, ce n'est pas tant que tu finisse le projet, mais que tu me donne une idée de ta capacité à te débrouiller, et à apprendre.
