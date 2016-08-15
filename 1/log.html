@@ -1,0 +1,28 @@
+<HTML>
+  <HEAD>
+    <TITLE>Connexion à 'Nom de votre site'</TITLE>
+    <SCRIPT LANGUAGE="JavaScript">
+      function Login(){
+      var done=0;
+      var username=document.login.username.value;
+      var password=document.login.password.value;
+
+      if (username=="etienne" && password=="brodu") {
+      window.location="../front_page.html";
+      }
+      }
+    </SCRIPT>
+    <BODY>
+      <CENTER>
+	<FORM name=login>
+	  <TABLE width=225 border=1 cellpadding=3>
+	    <tr><td colspan=2><CENTER><FONT
+					 size="+2"><b>Connexion</b></FONT></CENTER></td></tr>
+	    <tr><td>Login:</td><td><input type=text name=username></td></tr>
+	    <tr><td>Mot de passe:</td><td><input type=PASSWORD name=password></td></tr>
+	    <tr><td colspan=2 align=center><input type=button value="Connextion!" onClick="Login()"></td></tr>
+	  </TABLE>
+	</FORM>
+      </CENTER>
+    </BODY>
+</HTML>
